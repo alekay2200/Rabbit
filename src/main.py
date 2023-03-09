@@ -3,7 +3,7 @@ from rabbit import Rabbit, Response, Request
 rabbit = Rabbit(__name__)
 
 def hello_from_rabbit(request: Request) -> Response:
-    return Response("Hello from rabbit route!!!")
+    return Response("Hello from rabbit!")
 
 def rabbit_fn(request: Request) -> Response:
     return Response("Rabbit microframework is working")
