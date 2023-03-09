@@ -9,7 +9,7 @@ from rabbit import Rabbit, Response, Request
 rabbit = Rabbit(__name__)
 
 def hello_from_rabbit(request: Request) -> Response:
-    return Response("Hello from rabbit route!!!")
+    return Response("Hello from rabbit!")
 
 # Add new route to rabbit, the method and the function to call
 rabbit.add_route("GET", "/hello", hello_from_rabbit)
