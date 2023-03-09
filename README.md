@@ -1,5 +1,5 @@
 # Rabbit
-Rabbit is a lightweight WSGI web application framework. Right now is a simple project to learn how a framework works.
+Rabbit is a lightweight WSGI web application microframework. Right now is a simple project just for learn how this type of microframework works like Flask.
 
 
 ```python
